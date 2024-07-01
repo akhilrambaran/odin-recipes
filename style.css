@@ -1,12 +1,27 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding-inline: 20px;
-    }
-.center {
-    display: block;
-    margin: auto;
-    height: 400px;
-    width: auto;
-    }
+* {
+  box-sizing: border-box;
+  width: auto;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid whitesmoke;
+  border-collapse: collapse;
+  text-align: center;
+  padding-inline: 20px;
+}
+
+img {
+  display: block;
+  margin-inline: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
